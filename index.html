@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="main.css" />
+        <title>Todo List</title>
+    </head>
+    <body>
+        <div class="appContainer">
+            <div class="toolbar">
+                <div class="search">search bar</div>
+                <div class="addButton">+</div>
+            </div>
+            <div class="mainApp">
+                <ul class="todoList">
+                    <li class="listItem">
+                        <span>task</span><button class="deleteButton"></button>
+                    </li>
+                    <li class="listItem">XXX</li>
+                </ul>
+            </div>
+        </div>
+        <div class="taskEntryContainer textEntryToggle displayOff">
+            <div class="taskEntryBox textEntryToggle">
+                <input
+                    class="textEntryName textEntryToggle"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Enter a name for the task."
+                />
+                <textarea
+                    class="textEntryDesc textEntryToggle"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Enter a description for the task."
+                ></textarea>
+                <button class="taskAddButton">Add Task</button>
+            </div>
+        </div>
+        <script src="/dist/main.js"></script>
+    </body>
+</html>
