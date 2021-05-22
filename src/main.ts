@@ -2,7 +2,7 @@ const addBtn: Element = document.querySelector(".addButton");
 const taskAddBtn: Element = document.querySelector(".taskAddButton");
 const todoList: Element = document.querySelector(".todoList");
 const textEntryName: Element = document.querySelector(".textEntryName");
-const textEntryDesc: Element = document.querySelector(".taskEntryDesc");
+const textEntryDesc: Element = document.querySelector(".textEntryDesc");
 
 class TodoItem {
     taskName: string;
